@@ -1,0 +1,143 @@
+nav{
+  margin-top: 0px;
+}
+.banner {
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  background: url(../public/slider-bg-1.jpg) no-repeat;
+  background-size: cover;
+  min-height: 550px;
+}
+.banner .block h1 {
+  font-size: 60px;
+  line-height: 1.2;
+  letter-spacing: -1.2px;
+  text-transform: capitalize;
+  color: #223a66;
+}
+.about-img img {
+  border-radius: 5px;
+  box-shadow: 0px 0px 30px 0px rgb(0 42 106 / 10%);
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+.counter-stat {
+  text-align: center;
+  padding: 55px 0px 40px 0px;
+  position: relative;
+}
+.cta:before {
+  position: absolute;
+  content: "";
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgba(34, 58, 102, 0.95);
+}
+
+*, ::after, ::before {
+  box-sizing: border-box;
+  margin-top: 00px;
+}
+.counter-stat {
+  text-align: center;
+  padding: 45px 0px 30px 0px;
+  position: relative;
+}
+.counter-stat p {
+  margin-bottom: 0px;
+  color: rgba(255, 255, 255, 0.7);
+}
+p {
+  line-height: 30px;
+}
+.counter-stat span {
+  font-size: 70px;
+  color: #fff;
+}
+.line{
+  margin-top:5px;
+ margin-bottom:5px;
+ height:1px;
+ width:50%;
+ border-top:1px solid red;
+}
+.subscribe .form-control {
+  border-radius: 50px;
+  height: 60px;
+  padding-left: 25px;
+  border-color: #eee;
+}
+.align-items-center {
+  -ms-flex-align: center!important;
+  align-items: center!important;
+}
+.btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.subscribe .btn {
+  position: absolute;
+  right: 6px;
+  top: 6px;
+}
+.footer {
+  padding-bottom: 10px;
+}
+.gray-bg {
+  background: #f4f9fc;
+}
+
+.section {
+  padding: 100px 0;
+}
+.contact-block {
+  text-align: center;
+  border: 5px solid #EEF2F6;
+  padding: 50px 25px;
+}
+.section-title h2 {
+  color: #223a66;
+}
+.text-md {
+  font-size: 2.25rem;
+}
+#about {
+  margin-left: 45%;
+  padding-top: 10px;;
+}
+#link1{
+  font-size: 1.11rem;
+}
+#counter{
+  margin-left:0px;
+}
+html {
+  --scrollbarBG: #CFD8DC;
+  --thumbBG: #90A4AE;
+}
+body::-webkit-scrollbar {
+  width: 14px;
+}
+body {
+  scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+body::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG) ;
+  border-radius: 6px;
+  border: 3px solid var(--scrollbarBG);
+}
+
+
